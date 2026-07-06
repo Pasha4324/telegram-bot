@@ -9,7 +9,7 @@ import os
 # TOKEN
 # ======================
 
-TOKEN = "8906331404:AAGgRbXZT4hc9p8RoIQzAqNhSeQJgIAoAJA"
+TOKEN = "8906331404:AAEDcUvg1PjDsR-GlEI3YAWOLcgtFfAiGQU"
 
 bot = telebot.TeleBot(TOKEN)
 
