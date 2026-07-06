@@ -4,6 +4,17 @@ import sqlite3
 import time
 import os
 
+from flask import Flask
+import threading
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return "Bot is running"
+
+def run_web():
+    app.run(host="0.0.0.0", port=10000)
 
 # ======================
 # TOKEN
@@ -399,4 +410,8 @@ while True:
 
         print(e)
 
-        time.sleep(5)
+    
+threading.Thread(target=run_web).start()
+
+print("🚀 Bot started...")
+bot.infinity_polling()
