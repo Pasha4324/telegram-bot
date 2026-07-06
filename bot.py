@@ -7,7 +7,7 @@ import os
 # 🔐 CONFIG
 # ======================
 
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = "8906331404:AAGgRbXZT4hc9p8RoIQzAqNhSeQJgIAoAJA"
 bot = telebot.TeleBot(TOKEN)
 
 ADMIN_PASSWORD = "856243"
