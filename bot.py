@@ -2,7 +2,6 @@ import telebot
 from telebot import types
 import sqlite3
 import os
-from flask import Flask
 import threading
 
 # ======================
