@@ -20,7 +20,7 @@ def run_web():
 # TOKEN
 # ======================
 
-TOKEN = "8906331404:AAEDcUvg1PjDsR-GlEI3YAWOLcgtFfAiGQU"
+TOKEN = "8906331404:AAF5oaTI7zcoknNrmqzBlS-_VX_eCoPT0LA"
 
 bot = telebot.TeleBot(TOKEN)
 
